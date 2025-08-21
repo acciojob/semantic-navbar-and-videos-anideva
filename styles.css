@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+nav {
+	display: flex;
+	flex-direction: column;
+	gap: 300px;
+}
