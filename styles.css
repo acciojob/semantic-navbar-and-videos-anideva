@@ -1,7 +1,18 @@
 
 /* Your CSS Code here. */
-nav {
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	display: flex;
-	flex-direction: column;
-	gap: 300px;
+	justify-content: center;
+	gap:200px;
+}
+nav a:hover,
+nav a:focus {
+	background: lightblue:
+	color: black;
+	box-shadow: 0 2px 12px rgba(52,152,219,0.12);
+	font-weight: 600;
+	
 }
